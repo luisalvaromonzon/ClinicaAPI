@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="appsettings.json~RF40215b.TMP" />
+    <None Remove="appsettings.json~RF4e27df.TMP" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,10 @@
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".github\workflows\ci-clinica-api.yml" />
   </ItemGroup>
 
 </Project>
